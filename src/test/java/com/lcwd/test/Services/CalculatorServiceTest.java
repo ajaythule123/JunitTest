@@ -55,7 +55,7 @@ public class CalculatorServiceTest {
     {
 
         int result = CalculaterService.sumAnyNumber(1,4,5,7);
-        int Expectedresult=0;
+        int Expectedresult=17;
 
         Assertions.assertEquals(Expectedresult, result);
 
